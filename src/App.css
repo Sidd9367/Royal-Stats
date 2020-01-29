@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.App {
+   background-image:url("home1.png");
+   background-repeat: no-repeat;
+   background-position: right top;
+   margin-left: 50%;
+   min-height:100vh;
+   background-size: cover;
+   border-top-left-radius:100%;
+   border-bottom-left-radius: 80%;
+}
+.Home{
+  position:absolute;
+  top:30%;
+  left:10%;
+   }
+.home_label1 {
+  font-size: 45px;
+  display: block;
+}
+.home_label2 {
+  width:100%;
+  font-size: 25px;
+  color:red;
+  display: block;
+}
+.home_select1{
+  width: 30%; 
+  padding: 12px 10px;
+  border: 2px solid #bfbfbf;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #e6e6e6;
+  box-sizing: border-box;
+}
+.home_text1 {
+  width: 70%;
+  padding: 12px 30px;
+  border: 2px solid #bfbfbf;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+
+  
+}
+.home_button1 {
+  width: 100%;
+  background-color: #bfbfbf ; 
+  border: none;
+  border-radius: 12px;
+  color:black; 
+  padding: 5px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
